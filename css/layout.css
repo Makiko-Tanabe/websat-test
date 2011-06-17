@@ -1,0 +1,77 @@
+/*======= index.html =======*/
+#page1 header {height: 648px;}
+#page1 .box .col-1 {width:401px;}
+#page1 .box .col-2 {width:587px;}
+#page1 .box .col-2 .col-1 {width:161px;}
+#page1 .box .col-2 .col-2 {width:122px;}
+#page1 .box .col-2 .col-3 {width:200px;}
+#page1 .box .col-3 {width:273px;}
+#page1 .box1 .col-1 {width: 267px;}
+#page1 .box1 .col-2 {width: 265px;}
+#page1 .box1 .col-3 {width: 267px;}
+#page1 .divider {background:url(../images/divider-bg.gif) 430px 0px repeat-y;}
+#page1 .divider1 {background:url(../images/divider-1-bg.gif) 617px 0px repeat-y;}
+#page1 .divider2 {background:url(../images/divider-2-bg.gif) 297px 0px repeat-y;}
+#page1 .divider3 {background:url(../images/divider-2-bg.gif) 623px 0px repeat-y;}
+/*======= index-1.html =======*/
+#page2 .box .col-1 {width:588px;}
+#page2 .box .col-2 {width:266px;}
+#page2 .box1 .col-1 {width: 267px;}
+#page2 .box1 .col-2 {width: 265px;}
+#page2 .box1 .col-3 {width: 267px;}
+#page2 .divider1 {background:url(../images/divider-1-bg.gif) 623px 0px repeat-y;}
+#page2 .divider2 {background:url(../images/divider-2-bg.gif) 297px 0px repeat-y;}
+#page2 .divider3 {background:url(../images/divider-2-bg.gif) 623px 0px repeat-y;}
+/*======= index-2.html =======*/
+#page3 .box .col-1 {width: 267px;}
+#page3 .box .col-2 {width: 265px;}
+#page3 .box .col-3 {width: 267px;}
+#page3 .box1 .col-1 {width: 267px;}
+#page3 .box1 .col-2 {width: 265px;}
+#page3 .box1 .col-3 {width: 267px;}
+#page3 .divider {background:url(../images/divider-1-bg.gif) 297px 0px repeat-y;}
+#page3 .divider1 {background:url(../images/divider-1-bg.gif) 623px 0px repeat-y;}
+#page3 .divider2 {background:url(../images/divider-2-bg.gif) 297px 0px repeat-y;}
+#page3 .divider3 {background:url(../images/divider-2-bg.gif) 623px 0px repeat-y;}
+/*======= index-3.html =======*/
+#page4 .box .col-1 {width:593px;}
+#page4 .box .col-2 {width:266px;}
+#page4 .box1 .col-1 {width: 267px;}
+#page4 .box1 .col-2 {width: 265px;}
+#page4 .box1 .col-3 {width: 267px;}
+#page4 .divider1 {background:url(../images/divider-1-bg.gif) 623px 0px repeat-y;}
+#page4 .divider2 {background:url(../images/divider-2-bg.gif) 297px 0px repeat-y;}
+#page4 .divider3 {background:url(../images/divider-2-bg.gif) 623px 0px repeat-y;}
+/*======= index-4.html =======*/
+#page5 .box .col-1 {width: 267px;}
+#page5 .box .col-2 {width: 265px;}
+#page5 .box .col-3 {width: 267px;}
+#page5 .box1 .col-1 {width: 267px;}
+#page5 .box1 .col-2 {width: 265px;}
+#page5 .box1 .col-3 {width: 267px;}
+#page5 .divider {background:url(../images/divider-1-bg.gif) 297px 0px repeat-y;}
+#page5 .divider1 {background:url(../images/divider-1-bg.gif) 623px 0px repeat-y;}
+#page5 .divider2 {background:url(../images/divider-2-bg.gif) 297px 0px repeat-y;}
+#page5 .divider3 {background:url(../images/divider-2-bg.gif) 623px 0px repeat-y;}
+/*======= index-5.html =======*/
+#page6 .box .col-1 {width:588px;}
+#page6 .box .col-1 .col-1 {width:185px;}
+#page6 .box .col-2 {width:266px;}
+#page6 .box1 .col-1 {width: 267px;}
+#page6 .box1 .col-2 {width: 265px;}
+#page6 .box1 .col-3 {width: 267px;}
+#page6 .divider1 {background:url(../images/divider-1-bg.gif) 623px 0px repeat-y;}
+#page6 .divider2 {background:url(../images/divider-2-bg.gif) 297px 0px repeat-y;}
+#page6 .divider3 {background:url(../images/divider-2-bg.gif) 623px 0px repeat-y;}
+/*======= index-6.html =======*/
+/*======= index-7.html ======= NETWORLD ADD PAGE =======*/
+#page8 .box .col-1 {width:266px;}
+#page8 .box .col-2 {width:588px;}
+#page8 .box1 .col-1 {width: 267px;}
+#page8 .box1 .col-2 {width: 265px;}
+#page8 .box1 .col-3 {width: 267px;}
+#page8 .divider1 {background:url(../images/divider-1-bg.gif) 623px 0px repeat-y;}
+#page8 .divider2 {background:url(../images/divider-2-bg.gif) 297px 0px repeat-y;}
+#page8 .divider3 {background:url(../images/divider-2-bg.gif) 623px 0px repeat-y;}
+
+

@@ -1,0 +1,406 @@
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video{ display: block; }
+mark, rp, rt, ruby, summary, time{ display: inline }
+
+/* Global properties ======================================================== */
+body { 
+	background: url(../images/body-bg.gif) 0 0 repeat; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px; 
+	line-height: 16px;
+	color: #484343;
+	min-width: 1000px;
+}
+html, body { height: 100%;}
+
+p { padding-top: 16px; }
+.wrapper p {overflow: hidden;}
+
+.top { padding-top: 6px; }
+.top1 { padding-top: 9px !important; }
+.top2 { padding-top: 15px !important; }
+.top3 { padding-top: 23px !important; }
+.top4 { padding-top: 0px; }
+.top5 { padding-top: 38px; }
+
+.h-top {padding-top: 22px;}
+.h-top1 {padding-top: 37px;}
+
+.bot { padding-bottom: 0px; }
+
+a {	color: #484343; outline: none; }
+a:hover{ text-decoration: none; }
+
+/* Global Structure ============================================================= */
+.main {
+	margin: 0 auto;
+	width: 980px;
+	padding: 10px 0 0;
+}
+
+	/* Header */
+	header{
+		height: 105px;
+	}
+	
+	/* Content */
+	section#content {
+		padding: 30px 0 0;
+	}			
+	/* Footer */
+	footer{
+		height: 37px;
+	}
+/* Left & Right alignment */
+
+.fleft { float: left;}
+.fright { float: right;}
+.clear { clear: both;}
+
+.col-1, .col-2, .col-3, .col-4, .col-5 { float: left;}
+
+.alignright { text-align: right;}
+.aligncenter { text-align: center;}
+
+.wrapper { 
+	width: 100%;
+	overflow: hidden;
+}
+.container {
+	width: 100%;
+}
+/*----- form defaults -----*/
+input, select, textarea { 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	vertical-align: middle;
+	font-weight: normal;
+}
+.img1 {padding-top: 4px;}
+/*----- other -----*/
+.img-indent { margin: 0 20px 0 0; float: left; }
+.img-indent1 { margin: 0 29px 0 0; float: left; }
+.extra-wrap { overflow: hidden; }
+
+/*=============================================================================== text =====*/
+h1 {
+	padding: 0px 0 20px 0px;
+	position: relative;
+	float: left;
+}
+	h1 a {
+		display: block;
+		height: 43px;
+		width: 344px;
+		text-indent: -5000px;
+		/*background: url(../images/logo.gif) left top no-repeat;*/
+		background: url(../images/wesat_logo_01.png) left top no-repeat;
+	}
+h2 {
+	font-size: 30px;
+	line-height: 1.2em;
+	color: #7a7575;
+	padding: 0px 0px 6px 0px;
+	margin: 0px 0px 0px 0px;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+	h2 strong {
+		font-size: 40px;
+		color: #f73757;
+		display: block;
+		padding: 5px 0 0;
+	}
+	h2 span {
+		display: block;
+		margin-top: -5px;
+	}
+/*=================================================================================================================== header =====*/
+/*=============================================================================== social =====*/
+.social {
+	float: right;
+	padding-top: 10px;
+}
+	.social img {
+		float: left;
+		margin-left: 19px;
+	}
+/*=============================================================================== nav =====*/
+nav {padding-left: 0px;}
+	nav ul {
+		width:100%;
+		overflow:hidden;
+	}
+		nav li {
+			float: left;
+			font-size: 14px;
+			line-height: 1.2em;
+			background: url(../images/nav-li-bg.gif) 0 0 no-repeat;
+			padding-left: 1px;
+		}
+			nav li a {
+				display:inline-block;
+				text-decoration:none;
+				color: #fff;
+				text-transform: uppercase;
+			}
+				nav a strong {
+					display: inline-block;
+					background: url(../images/nav-a-bg.gif) 0 0 repeat-x;
+					text-align: center;
+					padding: 17px 39px 16px;
+				}
+					nav a:hover strong, nav .active strong {
+						color: #2f2d2d;
+					}
+		nav .first {background: none; padding: 0;}
+		#page1 nav .first a {
+			padding: 0px 0 0px 12px;
+			background: url(../images/nav-first-strong-bg1.gif) 0 0 no-repeat;
+		}
+		nav .first a {
+			padding: 0px 0 0px 12px;
+			background: url(../images/nav-first-strong-bg.gif) 0 0 no-repeat;
+		}
+			nav .first a strong {
+				padding: 17px 40px 16px 28px;
+			}
+		nav .last a {
+			padding: 0px 12px 0px 0px;
+			background: url(../images/nav-last-strong-bg.gif) right 0 no-repeat;
+		}
+			nav .last a strong {
+				padding: 17px 28px 16px 40px;
+			}
+/*=============================================================================== slogan =====*/
+.slogan {
+	background: url(../images/slogan-bg.jpg) 0 0 no-repeat;
+	height: 333px;
+	padding: 47px 0 0 88px;
+}
+	.slogan strong {
+		background: url(../images/slogan-bg.png) 0 8px no-repeat;
+		padding-left: 88px;
+		font-size: 44px;
+		line-height: 1.2em;
+		color: #232121;
+		text-transform: uppercase;
+		display: block;
+		letter-spacing: -1px;
+	}
+		.slogan strong b {color: #ff0c46; vertical-align:baseline;}
+	.slogan span {
+		display: block;
+		margin-top: -13px;
+	}
+		*+ html .slogan span {
+			margin-top: -10px;
+		}
+/*=================================================================================================================== content =====*/
+
+/*=============================================================================== indents =====*/
+.indent { padding: 0px 0px 9px 0px }
+.indent-main { padding: 30px 0px 0px 0px }
+/*=============================================================================== col-indents =====*/
+.col-indent {padding-right: 60px;}
+.col-indent1 {padding-right: 51px;}
+.col-indent2 {padding-right: 67px;}
+/*=============================================================================== boxes =====*/
+.box {
+	background: #fafafa;
+	border-radius: 11px;
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	behavior: url(js/PIE.htc);
+	position: relative;
+	padding: 22px 29px 24px 30px;
+	margin-bottom: 10px;
+}
+	#page7 .box {margin-bottom: 0;}
+.box1 {
+	background: url(../images/box1-bg.gif) 0 0 repeat-x #d9d8d6;
+	border-radius: 11px;
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	behavior: url(js/PIE.htc);
+	position: relative;
+	padding: 21px 29px 20px 30px;
+}
+	.box1 h2 {color: #4e4a44;}
+	.box1 .img {padding: 5px 0 1px; margin-right: 17px;}
+	.box1 .alignright {margin-bottom: 9px;}
+.slogan-down-box {
+	background: url(../images/slogan-down-box.gif) 0 0 repeat-x #1f1e1d;
+	border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	behavior: url(js/PIE.htc);
+	position: relative;
+	padding: 20px 26px 17px 30px;
+	min-height: 118px;
+	width: 864px;
+	overflow: hidden;
+	font-size: 11px;
+	line-height: 15px;
+	color: #989696;
+}
+	.slogan-down-box .wrapper {
+		height: 118px;
+		overflow: hidden;
+	}
+	.slogan-down-box img {padding: 5px 0 13px;}
+	.slogan-down-box h2 {color: #f0ebe8;}
+	.slogan-down-box p {padding: 4px 0 0;}
+/*=============================================================================== contacts =====*/
+.contacts span {
+	display: inline-block;
+	width: 90px;
+}
+/*=============================================================================== lists =====*/
+.list1 {
+	padding: 18px 0 9px;
+}
+	.list1 li {
+		font-size: 12px;
+		line-height: 30px;
+		background: url(../images/list-bg.gif) 0px 12px no-repeat;
+		padding: 0 0 0px 16px;
+	}
+		.list1 li a {
+			text-decoration: none;
+			color: #f3164d;
+		}
+			.list1 li a:hover {text-decoration: underline;}
+	.list1 .last {margin-bottom: -10px;}
+
+.list {
+	padding: 18px 0 0;
+}
+	.list li {
+		font-size: 12px;
+		line-height: 16px;
+		background: url(../images/list-bg.gif) 1px 6px no-repeat;
+		padding: 0 0 22px 16px;
+		width: 100%;
+	}
+		.list li span {
+			border-bottom: 1px solid #d5d5d5;
+			display: block;
+			padding-bottom: 21px;
+		}
+		.list li a {
+			color: #f3164d;
+			text-decoration: none;
+		}
+			.list li a:hover {
+				text-decoration: underline;
+			}
+	.list .last {
+		padding-bottom: 0;
+	}
+		.list .last span {border: none; margin-bottom: -8px;}
+.listFAQ {
+	padding: 18px 0 9px;
+}
+	.listFAQ li {
+		font-size: 12px;
+		line-height: 30px;
+		/*background: url(../images/list-bg.gif) 0px 12px no-repeat;*/
+		padding: 0 0 0px 16px;
+	}
+		.listFAQ li a {
+			text-decoration: none;
+			color: #f3164d;
+		}
+			.listFAQ li a:hover {text-decoration: underline;}
+	.listFAQ .last {margin-bottom: -10px;}
+
+/*=============================================================================== links =====*/
+.link {
+	background: url(../images/link-bg.gif) 0 0 repeat-x #e30b3b;
+	display: inline-block;
+	padding: 6px 9px 8px 10px;
+	text-decoration: none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	behavior: url(js/PIE.htc);
+	position: relative;
+	font-size: 11px;
+	color: #fff;
+	text-transform: uppercase;
+}
+	.link:hover {
+		color: #000;
+	}
+/*=============================================================================== block =====*/
+.block {float: left;}
+/*=============================================================================== nav =====*/
+
+/*=============================================================================== nav =====*/
+
+/*=================================================================================================================== footer =====*/
+footer p {
+	float: right;
+	font-size: 11px;
+	color: #939290;
+	padding-top: 6px;
+	margin-right: -1px;
+}
+	footer span {
+		text-transform: uppercase;
+		padding-right: 9px;
+	}
+	footer a {
+		color: #939290;
+		padding-left: 9px;
+		text-decoration: none;
+	}
+		footer a:hover {text-decoration: underline;}
+	footer strong {
+		display: block;
+		padding-top: 6px;
+	}
+/*------------------------------------------------------------------------------------------------------------------- forms -----*/
+#ContactForm {
+	color:#484343;
+	width:266px;
+	padding-top:20px;
+}
+	#ContactForm label {
+		height:26px;
+		display:block;
+		line-height: 13px;
+	}
+	#ContactForm .link {
+		margin:12px 0px 0px 6px;
+	}
+	#ContactForm .input {
+		width:196px;
+		border-bottom:1px solid #e1e1e1;
+		border-top: 2px solid #959595;
+		border-left: 2px solid #959595;
+		border-right: 1px solid #cecece;
+		padding:1px 0 1px 3px;
+		background:#fff; 
+		color:#a4a4a4; 
+		float:right;
+	}
+	#ContactForm textarea {
+		width:196px; 
+		height:234px; 
+		border-bottom:1px solid #e1e1e1;
+		border-top: 2px solid #959595;
+		border-left: 2px solid #959595;
+		border-right: 1px solid #cecece;
+		background:#fff; 
+		padding:1px 0 1px 3px;
+		overflow:auto; 
+		color:#a4a4a4; 
+		float:right;
+	}
+
+/*==========================================*/
+    
+/* Project specifics =========================================================== */
+/* Pour some CSS below ========================================================= */
